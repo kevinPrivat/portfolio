@@ -1,0 +1,280 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+}
+
+.main-header {
+    background-image: url("img-dev-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-position-x: center;
+    height: 500px;
+}
+
+.test {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    text-align: center;
+}
+
+.p-2 {
+    margin: 0 200px;
+    margin-bottom: 5%;
+}
+
+.white {
+    color: white;
+    text-align: center;
+
+}
+
+.white-1 {
+    color: white;
+    text-align: center;
+}
+
+.section-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #f5f5f5;
+    width: 100%;
+    margin-top: 20px;
+
+}
+
+
+.section-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    padding: 30px;
+    margin: 0;
+}
+
+.container-3 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+@media screen and (min-width:600px) {
+    .container-3 {
+        flex-direction: row;
+    }
+
+    .container-3 .img-bureau {
+        width: 30%;
+    }
+
+    .container-3 .tout {
+        width: 70%;
+    }
+}
+
+h1 {
+    display: flex;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+h2 {
+
+    text-align: center;
+    margin: 0;
+    text-transform: uppercase;
+
+}
+
+.navbar {
+    display: inline;
+    list-style-type: none;
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width:845px) {
+    .nav_ul {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+.navhoriz:hover {
+    background-color: black;
+    border: 5px solid;
+    border-radius: 5px;
+}
+
+.navhoriz {
+    display: inline;
+    margin: 5px;
+    width: 90px;
+    height: 30px;
+    background-color: #f5f5f5;
+}
+
+#nav-h {
+    display: inline;
+    margin: 5px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    margin: 40px;
+    gap: 30px 30px;
+}
+
+.tout {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 600px) {
+    .tout {
+        flex-direction: row;
+    }
+}
+
+img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 200px;
+}
+
+img.icons {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    box-shadow: 5px 5px 5px rgb(58, 55, 55);
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.img-tech {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    gap: 20px 20px;
+    margin: 40px;
+
+}
+
+.div-progress-bar {
+    width: 100%;
+}
+
+.progress-bar {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin: 10px 2%;
+    width: 95%;
+}
+
+hr {
+    width: 10%;
+    margin: 20px auto;
+}
+
+/*-----Formulaire-----*/
+
+form {
+    width: 200px;
+    margin-top: 100px;
+    margin: auto;
+}
+
+input {
+    display: block;
+    justify-content: space-around;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 200px;
+    margin: 5px;
+    padding: 5px;
+}
+
+#msg {
+    width: 210px;
+}
+
+input[type=submit] {
+    background-color: black;
+    text-align: center;
+    width: 200px;
+    font-weight: bold;
+    color: white;
+}
+
+footer {
+    background-color: rgb(29, 27, 27);
+    color: white;
+}
+
+.copy {
+    display: flex;
+    justify-content: center;
+}
+
+footer ul img {
+    width: 30px;
+    height: 30px;
+    border: 2px solid snow;
+    color: snow;
+    border-radius: 50%;
+}
+
+footer ul {
+    display: flex;
+    gap: 10px 10px;
+}
